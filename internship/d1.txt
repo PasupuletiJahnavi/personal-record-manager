@@ -1,0 +1,18 @@
+Integers:any number it might be positive or negative will be treated as integer
+Eg:number=8
+n1=-9
+type(n1)
+<class 'int'>
+any number with a decimal number it might be positive or negative will be treated as Float
+type(value)
+<class 'float>
+Eg:float=-6.3
+1.any thing between the quotes will be treated as strings('',"","')
+Asssigning single vaue to a single variable
+fruit="apple"
+Assigning multiple values to single varaiable
+V1=(1,2,3)
+Assigning multiple values to multiple varaiables
+L1,L2,L3=5,6,7
+Assigning single values to multiple varaiables
+g1=g2=g3=8  ..... it is nothing but tuple

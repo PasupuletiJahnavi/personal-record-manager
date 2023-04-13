@@ -1,0 +1,12 @@
+.bgimg{
+    background-image: url('https://img.freepik.com/free-psd/abstract-background-with-phone_23-2149085909.jpg?w=1380&t=st=1679982289~exp=1679982889~hmac=b2228398fc7f346eba0485649a8414881c699be0b72b2c321708d2204f1e678e');
+    background-size: cover;
+    height:100vh;
+}
+.layoutcard{
+    background-color:beige;
+    height: 200px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding:20px;
+}

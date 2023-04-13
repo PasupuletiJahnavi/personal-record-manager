@@ -1,0 +1,10 @@
+mail sending code
+import smtplib
+#from smtplib import SMTP
+server=smtplib.SMTP('smtp.gmail.com',587)
+server.starttls()
+server.login('manumanisha1999@gmail.com','ulnxzylfqjwfsaak')
+server.sendmail('manumanisha1999@gmail.com','jahnavipasupuleti1302@gmail.com','mail from python')
+
+server.close()
+print('mail sent')

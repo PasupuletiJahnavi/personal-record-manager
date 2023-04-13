@@ -1,0 +1,5 @@
+Errors
+name error:name n3 is not defined did you mean:n1?
+(here n3 is not declared as variable or value it is showing to verify the n1 if you type mistakenly
+ 2. help()
+syntax error:unexpected indent (spaces can not be taken)

@@ -1,0 +1,11 @@
+.btnstyle{
+    color:black;
+    background-color:#42e9f5;
+    border:none;
+    border-radius: 5px;
+    padding: 8px;
+    width: 250px;
+    margin: 50px;
+    cursor:pointer;
+
+}

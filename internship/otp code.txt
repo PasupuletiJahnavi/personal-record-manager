@@ -1,0 +1,21 @@
+otp code
+import smtplib
+import random
+#from smtplib import SMTP
+recpt=input('enter to mail')
+otp=random.randint(12422,999999)
+server=smtplib.SMTP('smtp.gmail.com',587)
+server.starttls()
+server.login('jahnavipasupuleti1302@gmail.com','fxuribaetdwmodge')
+server.sendmail('jahnavipasupuleti1302@gmail.com',
+                recpt,
+                'The otp is-'+str(otp))
+server.close()
+print('mail sent')
+otp2=int(input('enter otp'))
+if otp==otp2:
+    print('The otp is valid')
+else:
+    print('invalid otp -check your eye right')
+  
+                

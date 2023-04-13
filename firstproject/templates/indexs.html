@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<body>
+    <h1> Result for {{user}}</h1>
+    <h3>Python</h3>
+    {% if python>=35 %}
+       <b> pass</b>
+    {% else %}
+       <b> fail</b>
+    {% endif %}
+    <h3>mysql</h3>
+    {% if mysql>=35 %}
+       <b> pass</b>
+    {% else %}
+       <b> fail</b>
+    {% endif %}
+    <h3>html</h3>
+    {% if html>=35 %}
+       <b> pass</b>
+    {% else %}
+       <b> fail</b>
+    {% endif %}
+
+    <label> overall result</label>
+    {% if python>=35 and mysql>=35 and html>=35 %}
+     <b> all pass</b>
+     <b> fail</b>
+     {% endif %}
+
+  </body>
+</html>

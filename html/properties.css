@@ -1,0 +1,14 @@
+body{
+    background-image:url('https://thumbs.dreamstime.com/b/colorful-acrylic-ink-water-isolated-white-abstract-background-color-explosion-liquid-cloud-motion-91873826.jpg');
+    background-size: cover;
+    height: 100vh;
+}
+.first{
+    color:black;
+    font-size: 80px;
+    font-family: 'roboto';
+}   
+.highlight{
+
+color:rgb(7, 7, 7);
+}
